@@ -1,0 +1,76 @@
+/* 背景色块 */
+.bgBlue {
+  background-image: linear-gradient(135deg, #378ef3, #63abff);
+}
+.bgOrg {
+  background-image: linear-gradient(135deg, #f7a053, #f9bd77);
+}
+.bgGreen {
+  background-image: linear-gradient(135deg, #31c7c9, #72dcdd);
+}
+.bgPink {
+  background-image: linear-gradient(135deg, #ff5b97, #ff86b8);
+}
+.bgGray {
+  background-image: linear-gradient(135deg, #ccc, #ddd);
+}
+/* 卡片头 内边距 */
+.el-card {
+  margin-bottom: 10px;
+  .el-card__header {
+    padding: 10px;
+    .setBtn {
+      display: none;
+      float: right;
+      padding: 3px 0;
+    }
+    .more {
+      float: right;
+      padding: 3px 0;
+    }
+  }
+  &:hover {
+    .setBtn {
+      display: block;
+    }
+  }
+}
+/* 弹出层 */
+.eaDialog {
+  margin-bottom: 15px;
+  .el-dialog__title {
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #676a6c;
+  }
+  .el-dialog__header {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: solid 1px #e6e6e6;
+    .el-dialog__headerbtn {
+      top: 10px;
+      right: 10px;
+    }
+    .el-pagination {
+      top: 4px;
+      right: 50px;
+      position: absolute;
+    }
+  }
+  .el-dialog__body {
+    padding: 0;
+    .scrollWrap {
+      padding: 10px;
+      overflow-y: auto;
+      max-height: 500px;
+    }
+  }
+  .el-dialog__footer {
+    padding: 0 10px 10px 10px;
+    position: relative;
+    .el-button-group {
+      float: none !important;
+    }
+  }
+}

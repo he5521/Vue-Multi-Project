@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, iframe, section, header, footer, aside, ul, ol, li, table, tr, th, td, button, input, textarea, select, h1, h2, h3, h4, h5, h6, em, i, strong, p, span, blockquote {
+  margin: 0;
+  padding: 0;
+}
+input::-webkit-input-placeholder {  	/* WebKit browsers */
+  color: #999999 !important;
+}
+input:-moz-placeholder {            	/* Mozilla Firefox 4 to 18 */
+  color: #999999 !important;
+}
+input::-moz-placeholder {           	/* Mozilla Firefox 19+ */
+  color: #999999 !important;
+}
+input:-ms-input-placeholder {       	/* Internet Explorer 10+ */
+  color: #999999 !important;
+}
+em, i, input, textarea, button, select {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+}
+ul, ol {
+  list-style: none;
+  vertical-align: top;
+}
+table, td, th {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input, button, select, textarea {
+  outline: none;
+  background: none;
+}
+textarea {
+  resize: none;
+}
+img, a img {
+  border: none;
+  vertical-align: top;
+}
+a, a:link, a:active, a:visited {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+html, body {
+  height: 100%;
+  padding: 0;
+  font-size: 14px;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #676a6c;
+  height: 100%;
+}
+/* 使用第三方图标库 */
+[class^="el-icon-fa"], [class*=" el-icon-fa"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome!important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+// 框架样式
+@import 'el-theme/index.css';
+// 页面样式
+@import 'common/common.scss';
+@import 'page/layout.scss';
+@import 'page/login.scss';
+@import 'page/home.scss';
+@import 'page/apply.scss';
+// 第三方样式
+@import '../font-awesome/font-awesome.min.css';

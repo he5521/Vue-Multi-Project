@@ -1,0 +1,170 @@
+.searchFormWrap{
+  background: url('./images/transparent.png') repeat;
+  padding: 10px 10px 0;
+  margin:-10px -10px 10px;
+  .el-select {
+    width: 100%;
+  }
+  .el-input-range, el-switch {
+    height: 29px;
+  }
+  .el-input-group__append, .el-input-group__prepend {
+    padding: 0 15px;
+  }
+  .el-date-editor--daterange.el-input__inner {
+    width: 100%;
+  }
+  .el-form-item--mini.el-form-item{
+    margin-bottom: 10px !important;
+    height: 29px;
+
+  }
+  .el-range-editor--mini.el-input__inner {
+    height: 29px;
+  }
+  .el-input--mini .el-input__inner {
+    padding: 0 6px;
+  }
+  .el-form-item__label{
+    font-size: 12px;
+  }
+}
+.block {
+  display: block !important;
+  display: flex !important;
+}
+
+/* 表单设置 */
+.dynamicForm {
+  overflow: hidden;
+  height: auto;
+  background: url('./images/transparent.png') repeat;
+  border-bottom: 1px solid transparent;
+  padding: 10px 10px 0;
+  margin: -10px -10px 10px;
+  .el-input-range, el-switch {
+    height: 29px;
+  }
+  .el-form-item--mini.el-form-item{
+    margin-bottom: 12px !important;
+    height: 29px;
+  }
+  .el-range-editor--mini.el-input__inner {
+    height: 29px;
+  }
+}
+.eaCardForm {
+  .line {
+    text-align: center;
+  }
+}
+.eaForm {
+  width: 500px;
+  padding-top: 10px;
+  .line {
+    text-align: center;
+  }
+}
+.diaForm {
+  @include clearfix();
+  .el-form-item--mini.el-form-item { margin-bottom: 10px; }
+  .el-form-item__label { font-size: 12px; color: #676a6c; line-height: 29px }
+  .el-form-item__content {
+    font-size: 12px;
+  }
+  &.infoForm {
+    .el-form-item__content {
+      line-height: 16px;
+      padding-top: 6px;
+      font-weight: bold;
+    }
+  }
+}
+.el-form {
+  span.bTxt {
+    color: #d6ddde;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    min-height: 28px;
+  }
+  .el-select {
+    width: 100%;
+  }
+  .el-input-group__append, .el-input-group__prepend {
+    padding: 0 15px;
+  }
+  .el-date-editor.el-input, .el-date-editor.el-input__inner {
+    width: 140px;
+  }
+  .el-date-editor.el-input, .el-date-editor.el-input__inner {
+    width: 140px;
+  }
+  .el-date-editor.el-input--mini .el-input__inner {
+    padding-left: 30px;
+  }
+  .el-date-editor--daterange.el-input__inner {
+    background-color: $inputBgColor;
+    border: 1px solid $inputBorderColor;
+    width: 100%;
+    .el-range-input, .el-range-separator {
+      color: $inputColor;
+    }
+  }
+  .el-input--mini .el-input__inner,
+  .el-textarea__inner {
+    background-color: $inputBgColor;
+    border: 1px solid $inputBorderColor;
+    color: $inputColor;
+    padding: 0 6px;
+    display: block;
+  }
+  .editTable {
+    .el-input--mini .el-input__inner,
+    .el-textarea__inner {
+      background-color: #fff;
+      border: 1px solid #DCDFE6;
+      color: $fontColor;
+      padding: 0 6px;
+    }
+  }
+  .el-form-item__label{
+    font-size: 12px;
+  }
+  .sLabel {
+    .el-form-item__label{
+      line-height: 14px;
+    }
+  }
+  .el-input.is-active .el-input__inner, .el-input__inner:focus {
+    border-color: $blue;
+  }
+  .el-range-editor.is-active, .el-range-editor.is-active:hover {
+    border-color: $blue;
+  }
+  .is-error .el-input--mini .el-input__inner,
+  .is-error .el-textarea__inner{
+    border: 1px solid #F56C6C !important;
+  }
+  .el-input.is-disabled .el-input__inner {
+    background-color: #999;
+    border: 1px solid $inputBorderColor;
+    color: #C0C4CC;
+    cursor: not-allowed;
+  }
+  .el-select .el-input.is-disabled .el-input__inner:hover {
+    border: 1px solid $inputBorderColor;
+  }
+}
+
+.disFlex .el-input__inner {
+  background-color: $inputBgColor;
+  border: 1px solid $inputBorderColor;
+  width: 100%;
+  .el-range-input, .el-range-separator {
+    color: $inputColor;
+  }
+}

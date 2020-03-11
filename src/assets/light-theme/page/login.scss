@@ -1,0 +1,120 @@
+#loginWrap {
+  width: 100%;
+  height: 100%;
+  .loginImgWrap {
+    display: flex;
+    overflow: auto;
+    -ms-flex-negative: 0;
+    flex-grow: 1;
+    .loginImg {
+      display: flex;
+      background-image: url('../../assets/light-theme/images/bg_login.jpg');
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      flex-direction: row-reverse;
+      .stsList {
+        justify-content: center;
+        width: 110px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 200px;
+        li {
+          margin-bottom: 20px;
+          background-color: #53c6ff;
+          transition: 0.3s linear;
+          color: #fff;
+          font-size: 16px;
+          border-radius:  2px 0 0 2px;
+          a {
+            color: #fff;
+            display: block;
+            padding: 5px;
+            &:active, :visited, :hover {
+              color: #fff;
+            }
+          }
+          &.active {
+            background-color: #ffb66d;
+          }
+          &:hover {
+            background-color: #ffb66d;
+          }
+        }
+      }
+    }
+  }
+  .loginForm {
+    background-color: #fff;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-preferred-size: auto;
+    overflow: auto;
+    flex-grow: 0;
+    flex-basis: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      display: flex;
+      flex-direction: row;
+      font-size: 24px;
+      font-weight: normal;
+      color: #3390fa;
+      margin: 50px 0;
+      .logo {
+        margin-right: 10px;
+      }
+    }
+    .panel {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+      h2 {
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 40px;
+        color: #666;
+        text-align: center;
+      }
+      .note {
+        margin-bottom: 10px;
+        text-align: left;
+      }
+      .el-form {
+        width: 100%;
+        .el-form-item {
+          margin-bottom: 30px;
+        }
+        .el-form-item__error {
+          padding-top: 5px;
+        }
+        .el-input__inner {
+          border-radius: 2px;
+          border: none;
+          border-bottom: 1px solid #d9d9d9;
+          width: 100%;
+          &:focus {
+            border-color: #3390FA;
+          }
+        }
+        .is-error {
+          .el-input__inner {
+            border-bottom: 1px solid #F56C6C;
+          }
+        }
+        .el-button {
+          border-radius: 2px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+.applyWrap {
+  .applyItem {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    .applyTtl {
+      width: 80px;
+      background-image: url('../../assets/light-theme/images/bg_apply_ttl.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      flex-direction: row-reverse;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #f0f0f0;
+      font-size: 16px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .applyList {
+      background-color: #fff;
+      flex-grow: 1;
+      flex-direction: column;
+      align-items: stretch;
+      .applySubCnt {
+      }
+      .applySubList {
+        padding: 10px;
+        .ttl {
+          line-height: 25px;
+          height: 25px;
+          padding: 0 5px;
+          margin-bottom: 10px;
+          border-bottom: 1px solid #EBEEF5;
+        }
+        .applySubItem {
+          display: flex;
+          flex-wrap: wrap;
+          .item {
+            width: 100px;
+            display: flex;
+            flex-shrink: 0 !important;
+            flex-direction: column;
+            align-items: center !important;
+            text-align: center;
+            margin: 0 10px;
+            cursor: pointer;
+            .navTtl {
+              width: 100px;
+              height: 35px;
+              padding-top: 3px;
+            }
+            .icon {
+              width: 50px;
+              height: 50px;
+              border-radius: 4px;
+              text-align: center;
+              position: relative;
+              i {
+                color: #fff;
+                font-size: 24px !important;
+                line-height: 50px !important;
+              }
+              i.star {
+                background-color: white;
+                border-radius: 10px;
+                color: #ff0000;
+                font-size: 14px !important;
+                line-height: 16px !important;
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                display: none;
+                &.starShow {
+                  display: block;
+                }
+              }
+              &:hover {
+                i.star {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
