@@ -30,3 +30,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/01.png)
+![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/02.png)
+![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/03.png)
+![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/04.png)
+![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/05.png)
+![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/06.png)
