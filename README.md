@@ -30,10 +30,15 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
+# 登录页
 ![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/01.png)
+# 首页
 ![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/02.png)
+# 应用页
 ![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/03.png)
+# 采购模块（子导航）
 ![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/04.png)
+# 常用菜单
 ![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/05.png)
+# 配置常用菜单
 ![image](https://github.com/he5521/Vue-Multi-Project/blob/master/images/06.png)
